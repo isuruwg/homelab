@@ -2,12 +2,23 @@
 
 This file contains notes about the changes I do in this repo. 
 
+This repo is based on [this template](https://github.com/onedr0p/cluster-template). 
+
 # Contents <!-- omit in toc -->
 
-- [1. Keeping this repo upto date with the template repo](#1-keeping-this-repo-upto-date-with-the-template-repo)
+- [1. Setting up the hardware](#1-setting-up-the-hardware)
+- [2. Keeping this repo upto date with the template repo](#2-keeping-this-repo-upto-date-with-the-template-repo)
 
 
-# 1. Keeping this repo upto date with the template repo
+# 1. Setting up the hardware
+
+Use the `rpi-imager` tool to set-up the hardware.
+
+My hardware: 
+- Raspberry pi 5: 
+  - Raspberry pi 5 8gb: `ssh pi5-8gb-1@pi5-8gb-1.local`
+
+# 2. Keeping this repo upto date with the template repo
 
 At some point you may want to update your Git repository with some commit from this repository. The following is one method to achieve this.
 
