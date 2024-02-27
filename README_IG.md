@@ -7,16 +7,32 @@ This repo is based on [this template](https://github.com/onedr0p/cluster-templat
 # Contents <!-- omit in toc -->
 
 - [1. Setting up the hardware](#1-setting-up-the-hardware)
+- [TODO items](#todo-items)
 - [2. Keeping this repo upto date with the template repo](#2-keeping-this-repo-upto-date-with-the-template-repo)
 
 
 # 1. Setting up the hardware
 
-Use the `rpi-imager` tool to set-up the hardware.
+Use the `rpi-imager` tool to set-up the hardware. Use the gear icon to open settings and do the following:
+- set hostname
+- Enable SSH : Allow public-key authentication only
+- Set username and password
+
+After logging in for the first time you can enable ssh login for all of your machines by doing the following: 
+
+```bash
+curl https://github.com/${github_username}.keys > ~/.ssh/authorized_keys
+```
 
 My hardware: 
 - Raspberry pi 5: 
   - Raspberry pi 5 8gb: `ssh pi5-8gb-1@pi5-8gb-1.local`
+
+Next up: Install Docker on local machine
+
+# TODO items
+
+- [ ] https://www.raspberrypi.com/documentation/computers/configuration.html#improving-ssh-security
 
 # 2. Keeping this repo upto date with the template repo
 
